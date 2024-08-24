@@ -4,7 +4,7 @@ using API.Entities;
 using API.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace API;
+namespace API.Controllers;
 
 public class UsersController(DataContext context) : BaseApiController
 {
